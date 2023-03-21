@@ -1,0 +1,285 @@
+*{margin: 0 ; padding:0;}
+nav,header,main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+ /* */
+@font-face {
+    font-family: inter-SemiBold ;
+    src: url(../font/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family:font/Inter-Light ;
+    src: url(../font/Inter-Light.ttf);
+}
+
+ nav{
+    position: fixed; /* like sticky   بيثبت اى حاجه بس ستيكى لما يوصل الحافه وعايزه جافا سكريبت ساعات */
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    z-index: 1; /*layer */
+   
+ }
+  /* to fix the problem of the float in image of icon*/
+ .clearfix {
+    overflow: auto;
+}
+.navbar img{
+     /* to be in the same line */
+     float: left;
+     margin-top: 15px;
+     margin-left: 150px;
+}
+.navbar li {
+     /* it's allow to take width */
+    display: inline-block; 
+    width: 10%;
+    position: relative;
+    left: 190px;
+    font-size: 20px;
+}
+.navbar a{
+     text-decoration: none;
+     font-family: inter-SemiBold ;
+     color: #4A4C53;
+}
+
+.navbar a:hover{
+    font-family: inter-SemiBold ;
+    color: #000000;
+}
+.navbar .buton{
+    position: relative;
+    left: 50px;
+}
+.navbar #partner{
+    position: relative;
+    left: 30px;
+}
+.navbar #about{
+    position: relative;
+    left: 70px;
+}
+.navbar #destinations{
+    position: relative;
+    left: 50px;
+}
+.navbar #home{
+    position: relative;
+    left: 100px;
+}
+.buton{
+    display: inline-block;
+    background-color: orange;
+    padding: 20px 65px ;
+    margin-right: 30px;
+    margin-top: 8px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#login{
+    display: inline-block;
+    background-color: transparent;
+    color: #ffa500;
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #ffa500;
+    padding: 15px 60px ;
+}
+#login:hover{
+    background-color: rgb(208, 255, 0);
+}
+
+/*----------------------------------*/
+
+.table{
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 300px;
+  /*line-height: 35px;
+    text-align: left;
+    padding: 30px;
+    margin: 30px; 
+    font-size: large;
+    */
+}
+.table-cell{
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    line-height: 35px;
+    
+}
+
+header h1{
+    font-size: 50px;
+    width: 50%;
+}
+header h4{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+header select{
+    background-color: transparent;
+    padding: 20px 30px;
+    width: 40%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #4A4C53;
+    border-width: 1px;
+    font-size: 15px;
+}
+
+/*----------------------------------*/
+main{
+    margin-top:300px ;
+    margin-bottom:300px ;
+}
+
+main article{
+    position: relative;
+    left: 100px;
+    
+}
+main h4{
+    margin-bottom: 29px;
+    font-size: 40px;
+    width: 65%;
+}
+.tit-phto{
+    margin-bottom: 180px; ;
+}
+.para-phto{
+   font-size: 30px;
+   color: #000000;
+}
+main article p{
+color: #4A4C53;
+margin-bottom: 30px;
+font-size: 20px;
+width: 65%;
+}
+main .sec2{
+    margin-top:300px ;
+    margin-bottom: 300px;
+}
+
+.relative{
+    display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+    position: relative;
+}
+.relative #abs1{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.relative #abs2{
+    position: absolute;
+    bottom: 17px;
+    right: 60px;
+    width: 128px;
+    height: 54px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.relative div h3{
+    font-family: inter-SemiBold ;
+    text-align: left;
+}
+
+.relative div h4{
+    font-family: font/Inter-Light ;
+    text-align: left;
+    font-size: 14px;
+    color: darkgrey;
+}
+main img{
+    border-radius: 10px;
+}
+#imeg{
+    width:  260px;
+    height: 260px;
+}
+
+.artcl{
+    text-align: left;
+}
+
+
+.relative div h2{
+    font-family: font/Inter-Light ;
+    text-align: left;
+    width: 230px;
+    line-height: 35px
+}
+.relative div p{
+    font-family: inter-SemiBold ;
+    text-align: left;
+    width: 275px;
+    color: darkgrey;
+    line-height: 30px;
+    margin-top:12PX ;
+    margin-bottom: 20px;
+}
+.relative div a{
+   font-family: inter-SemiBold ;
+   color: orange;
+   text-decoration: none;
+}
+
+/* ----------------      */
+footer{
+    background-color: #e8eaf0;
+    opacity: 0.8px;
+   
+}
+.tablef{
+    display: table;
+    margin-top: 90px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.table-cellf{
+    display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+}
+footer p{
+    margin-top: 30px;
+    color: #b7bcce;
+}
+.icon li{
+    position: relative;
+    left: 670px;
+    display: inline-block; 
+    width: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom:30px ;
+}
+#iconstra li{ 
+    display: inline-block; 
+    width: 40px;
+    font-size: 30px;
+    margin-bottom:40px ;
+    color: rgb(255, 208, 0);
+}
